@@ -1,111 +1,46 @@
-<h1 align="center">
-  <img src="data/icons/io.github.seadve.Mousai.svg" alt="Mousai" width="192" height="192"/>
-  <br>
-  Mousai
-</h1>
+# Weblate German Translate
 
-<p align="center">
-  <strong>Identify songs in seconds</strong>
-</p>
+> Deutsche Übersetzungen für Weblate-gehostete Projekte (Rust-basiert).
 
-<p align="center">
-  <a href="https://flathub.org/apps/details/io.github.seadve.Mousai">
-    <img alt="Download on Flathub" src="https://flathub.org/api/badge?svg&locale=en&light" width="200"/>
-  </a>
-  <br>
-  <a href="https://www.buymeacoffee.com/seadve">
-    <img alt="Buy Me a Coffee" src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=seadve&button_colour=FFDD00&font_colour=000000&font_family=Inter&outline_colour=000000&coffee_colour=ffffff" width="150"/>
-  </a>
-</p>
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
-<br>
+## Navigation
 
-<p align="center">
-  <a href="https://hosted.weblate.org/engage/seadve">
-    <img alt="Translation status" src="https://hosted.weblate.org/widgets/seadve/-/mousai/svg-badge.svg"/>
-  </a>
-  <a href="https://flathub.org/apps/details/io.github.seadve.Mousai">
-    <img alt="Flathub downloads" src="https://img.shields.io/badge/dynamic/json?color=informational&label=downloads&logo=flathub&logoColor=white&query=%24.installs_total&url=https%3A%2F%2Fflathub.org%2Fapi%2Fv2%2Fstats%2Fio.github.seadve.Mousai"/>
-  </a>
-  <a href="https://github.com/SeaDve/Mousai/actions/workflows/ci.yml">
-    <img alt="CI status" src="https://github.com/SeaDve/Mousai/actions/workflows/ci.yml/badge.svg"/>
-  </a>
-</p>
+- [Übersicht](#übersicht)
+- [Verwendung](#verwendung)
+- [Beitragen](#beitragen)
+- [Roadmap](./ROADMAP.md)
+- [Changelog](./CHANGELOG.md)
 
-<br>
+---
 
-<p align="center">
-  <img src="data/resources/screenshots/preview.png" alt="Preview"/>
-</p>
+## Übersicht
 
-Discover songs you are aching to know with an easy-to-use interface.
+Dieses Repository enthält deutsche Übersetzungsdateien für Projekte, die auf [Weblate](https://weblate.org) gehostet werden. Der Fokus liegt auf präzisen, kontexttreuen Übersetzungen für Rust-basierte Applikationen.
 
-Mousai is a simple application that can recognize songs similar to Shazam. Just
-click the listen button, and then wait a few seconds. It will magically return
-the title and artist of that song!
+---
 
-Note: This uses the API of audd.io, so it is necessary to log in to their site to get more trials.
+## Verwendung
 
-Why you will love Mousai?
-* 🎵 Identify songs within seconds or save for later when offline
-* 🎙️ Recognize from desktop audio or your microphone
-* 🎸 Build a repertoire of recognized songs
-* 🎼 Quickly preview the song within the interface
-* 🌐 Browse and listen the song from different providers
-* 📱 Easy-to-use user interface
+Die Übersetzungsdateien werden direkt über Weblate synchronisiert. Manuelle Änderungen sollten wenn möglich über die Weblate-Oberfläche vorgenommen werden, um Merge-Konflikte zu vermeiden.
 
-## 🌈 AudD
-
-AudD is a music recognition API that makes Mousai possible. For more information,
-you can check their [Privacy Policy](https://audd.io/privacy/) and [Terms of Service](https://audd.io/terms/).
-
-## 🏗️ Building from source
-
-### GNOME Builder
-GNOME Builder is the environment used for developing this application. It can use Flatpak manifests to create a consistent building and running environment cross-distro. Thus, it is highly recommended you use it.
-
-1. Download [GNOME Builder](https://flathub.org/apps/details/org.gnome.Builder).
-2. In Builder, click the "Clone Repository" button at the bottom, using `https://github.com/SeaDve/Mousai.git` as the URL.
-3. Click the build button at the top once the project is loaded.
-
-### Meson
-```
-git clone https://github.com/SeaDve/Mousai.git
-cd Mousai
-meson _build --prefix=/usr/local
-ninja -C _build install
+```bash
+# Lokaler Überblick der Dateien
+git clone https://github.com/Toqsick/Weblate-german-translate.git
+cd Weblate-german-translate
 ```
 
-## 📦 Third-Party Packages
+---
 
-Unlike Flatpak, take note that these packages are not officially supported by the developer.
+## Beitragen
 
-| Distribution |              Package Name               |                   Maintainer                    |
-| :----------: | :-------------------------------------: | :---------------------------------------------: |
-|     Snap     | [`mousai`](https://snapcraft.io/mousai) | [soumyaDghosh](https://github.com/soumyaDghosh) |
+1. Übersetzungen bevorzugt direkt über Weblate einreichen
+2. Bei Pull Requests: Eine Änderung pro Commit, klare Commit-Message auf Deutsch
+3. Kontext und Quelltext beim Übersetzen berücksichtigen
+4. Keine maschinellen Rohübersetzungen ohne manuelle Prüfung
 
-### Repology
+---
 
-You can also check out other third-party packages on [Repology](https://repology.org/project/mousai/versions).
+## Lizenz
 
-## 🙌 Help translate Mousai
-
-You can help Mousai translate into your native language. If you found any typos
-or think you can improve a translation, you can use the [Weblate](https://hosted.weblate.org/engage/seadve/) platform.
-
-## ☕ Support me and the project
-
-Mousai is free and will always be for everyone to use. If you like the project and
-would like to support it, you may [buy me a coffee](https://www.buymeacoffee.com/seadve).
-
-## 💝 Acknowledgment
-
-I would like to express my gratitude to the [contributors](https://github.com/SeaDve/Mousai/graphs/contributors)
-and [translators](https://hosted.weblate.org/engage/seadve/) of the project.
-
-I would also like to thank the open-source software projects, libraries, and APIs that were
-used in developing this app, such as GStreamer, GTK, LibAdwaita, [AudD](https://audd.io/), etc., for making Mousai possible.
-
-I would also like to acknowledge GNOME Shell whose
-[issue templates](https://gitlab.gnome.org/GNOME/gnome-shell/-/tree/main/.gitlab/issue_templates)
-served as the basis of Mousai's issue templates.
+[GNU General Public License v3.0](./LICENSE)
